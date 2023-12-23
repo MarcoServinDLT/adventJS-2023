@@ -29,7 +29,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       # Installing package manager before installing node (must be in this order).
-      - uses: pnpm/actions-setup@v2
+      - uses: pnpm/action-setup@v2
         with: 
           version: ${{ matrix.pnpm-version }} 
       # Installing Node environment and specifiying the package manager to use
