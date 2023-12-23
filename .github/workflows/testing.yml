@@ -32,9 +32,9 @@ jobs:
       - uses: pnpm/actions-setup@v2
         with: 
           version: ${{ matrix.pnpm-version }} 
-      - uses: actions/setup-node@v3
       # Installing Node environment and specifiying the package manager to use
       - name: Setup environment of NodeJS ${{ matrix.node-version }} 
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
           cache: 'pnpm'
