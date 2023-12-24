@@ -40,7 +40,7 @@ const testsCases = [
 ]
 
 
-describe('Reto #21: 🪐 Mensaje binario', () => {
+describe('Reto #22: 🚂 Lenguaje de programación', () => {
 
     describe('Testing work it 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
