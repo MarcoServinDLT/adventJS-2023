@@ -54,7 +54,7 @@ x o x o
 
 describe('Reto #10: 🎄 Crea tu propio árbol de navidad', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             const {ornaments, height} = input;
             expect( createChristmasTree(ornaments, height) ).toStrictEqual(output)

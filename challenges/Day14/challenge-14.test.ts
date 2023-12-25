@@ -36,7 +36,7 @@ const testsCases = [
 
 describe('Reto #14: 🚨 Evita la alarma', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( maxGifts(input) ).toEqual(output)
         })

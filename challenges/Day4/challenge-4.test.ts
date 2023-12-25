@@ -36,7 +36,7 @@ const testsCases = [
 
 describe('Reto #4: 😵 Dale la vuelta a los paréntesis', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( decode(input) ).toStrictEqual(output)
         })

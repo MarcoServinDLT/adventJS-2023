@@ -40,7 +40,7 @@ const testsCases = [
 
 describe('Reto #7: 📦 Las cajas en 3D', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             const {size, symbol} = input; 
             expect( drawGift(size, symbol) ).toEqual(output);

@@ -60,7 +60,7 @@ const testsCases = [
 
 describe('Reto #23: 🍽️ La comida de Navidad', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( organizeChristmasDinner(input) ).toStrictEqual(output)
         })

@@ -24,7 +24,7 @@ const testsCases = [
 
 describe('Reto #1: 🎁 ¡Primer regalo repetido!', () => {
 
-    describe('Testing work it🎯', () => {
+    describe('Testing that it work🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( findFirstRepeated(input) ).toEqual(output)
         })

@@ -50,7 +50,7 @@ const testsCases = [
 
 describe('Reto #20: 🏋️Distribuye el peso', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( distributeGifts(input) ).toStrictEqual(output)
         })

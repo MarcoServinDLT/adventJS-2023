@@ -66,7 +66,7 @@ const testsCases = [
 
 describe('Reto #21: 🪐 Mensaje binario', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( findBalancedSegment(input) ).toStrictEqual(output)
         })

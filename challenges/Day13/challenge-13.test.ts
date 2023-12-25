@@ -36,7 +36,7 @@ const testsCases = [
 
 describe('Reto #13: ⌚️ Calculando el tiempo', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( calculateTime(input) ).toEqual(output)
         })

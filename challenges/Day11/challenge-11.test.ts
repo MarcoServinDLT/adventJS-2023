@@ -48,7 +48,7 @@ const testsCases = [
 
 describe('Reto #11: 📖 Los elfos estudiosos', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             if(output)
                 expect( getIndexsForPalindrome(input) ).toStrictEqual(output)

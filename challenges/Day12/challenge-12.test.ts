@@ -42,7 +42,7 @@ const testsCases = [
 
 describe('Reto #12: 📸 ¿Es una copia válida?', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             const {original, copy} = input
             expect( checkIsValidCopy(original, copy) ).toEqual(output)

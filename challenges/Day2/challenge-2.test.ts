@@ -36,7 +36,7 @@ const testsCases = [
 
 describe('Reto #2: 🏭 Ponemos en marcha la fábrica', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             const { gifts, materials } = input
             expect( manufacture(gifts, materials) ).toStrictEqual(output)

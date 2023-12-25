@@ -25,7 +25,7 @@ const testCases = [
 
 describe('Reto #3: 😏 El elfo travieso', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testCases)('test #$id - $description', ({input, output}) => {
             const {original, modified} = input;
             expect( findNaughtyStep(original, modified) ).toEqual(output);

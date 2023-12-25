@@ -42,7 +42,7 @@ const testsCases = [
 
 describe('Reto #22: 🚂 Lenguaje de programación', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( compile(input) ).toEqual(output)
         })

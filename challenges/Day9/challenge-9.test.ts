@@ -42,7 +42,7 @@ const testsCases = [
 
 describe('Reto #9: 🚦 Alterna las luces', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( adjustLights(input) ).toEqual(output)
         })

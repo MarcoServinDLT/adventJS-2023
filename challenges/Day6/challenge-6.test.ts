@@ -36,7 +36,7 @@ const testsCases = [
 
 describe('Reto #6: 🦌 Los renos a prueba', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             expect( maxDistance(input) ).toEqual(output)
         })

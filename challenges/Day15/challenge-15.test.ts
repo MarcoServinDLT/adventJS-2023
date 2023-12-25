@@ -51,7 +51,7 @@ const testsCases = [
 
 describe('Reto #15: ↔️ Robot autónomo', () => {
 
-    describe('Testing work it 🎯', () => {
+    describe('Testing that it works 🎯', () => {
         it.each(testsCases)('test #$id - $description', ({input, output}) => {
             const {movements, store} = input
             expect( autonomousDrive(store, movements) ).toStrictEqual(output)
