@@ -28,4 +28,4 @@ Quisiera expresar mi agradecimiento a la comunidad, ya que muchas de las solucio
 
 Quiero hacer una mención especial a [**Achalogy**](https://github.com/Achalogy), quien también tiene un repositorio con soluciones a los desafíos. Me inspiré en su trabajo para crear este repositorio. Te invito a echar un vistazo su excepcional trabajo y detalladas explicaciones para cada desafío en su [repositorio](https://github.com/Achalogy/advent-js-2023).
 
-Finalmente, deseo expresar mi más sincero agradecimiento a Midudev por abordar la tarea titánica que implica la organización de este evento y así proporcionar a la comunidad un medio por el cual comprtir y fortalecer sus habilidades de programación.
+Finalmente, deseo expresar mi más sincero agradecimiento a Midudev por abordar la tarea titánica que implica la organización de este evento y así proporcionar a la comunidad un medio por el cual compartir y fortalecer sus habilidades de programación.
